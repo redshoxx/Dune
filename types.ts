@@ -15,13 +15,3 @@ export interface CraftingRecipe {
   description: string;
   requiredResources: Resource[];
 }
-
-export interface CraftingGuideItem {
-  name: string;
-  description: string;
-}
-
-export interface CraftingGuideCategory {
-  categoryName: string;
-  items: CraftingGuideItem[];
-}
